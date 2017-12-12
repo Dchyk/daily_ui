@@ -111,11 +111,12 @@ input[type="text"] {
 input[type="submit"] {
   width: 150px;
   height: 40px;
-  background: #ff8e8e;
+  background: #68a2ff;
   border: 1px solid #d1d1d1;
   margin: 0 auto;
   font-size: .75rem;
   font-weight: 600;
+  color: #fff;
 }
 
 dd select,
