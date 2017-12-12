@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<title>Check Out</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="credit-card.css">
+	</head>
+	<body>
+		<h1>Check Out Now</h1>
+		<form action="#" method="post">
+			<fieldset>
+				<dl>
+					<dt>
+						<label for="name">Name On Card</label>
+					</dt>
+					<dd>
+						<input type="text" name="name" id="name" required>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<label for="card-number">Card Number (no spaces)</label>
+					</dt>
+					<dd>
+						<input type="text" name="card-number" id="card-number" required>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<label for="expiration">Expiration Date</label>
+					</dt>
+					<dd>
+						<select required>
+							<option name="01-january">01 - January</option>
+							<option name="02-february">02 - February</option>
+							<option name="03-march">03 - March</option>
+							<option name="04-april">04 - April</option>
+							<option name="05-may">05 - May</option>
+							<option name="06-june">06 - June</option>
+							<option name="07-july">07 - July</option>
+							<option name="08-august">08 - August</option>
+							<option name="09-september">09 - September</option>
+							<option name="10-october">10 - October</option>
+							<option name="11-november">11 - November</option>
+							<option name="12-december">12 - December</option>
+						</select>
+					</dd><!--
+					--><dd>
+						<input type="number" name="year" id="year" min="2017" max="2100" placeholder="2018" required>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<label for="code">Security Code</label>
+					</dt>
+					<dd>
+						<input type="number" name="code" id="code" min="000" max="999" required>
+					</dd>
+				</dl>
+				<input type="submit" value="Pay Now">
+			</fieldset>
+		</form>
+	</body>
+</html>

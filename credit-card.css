@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Credit card checkout */
+
+html {
+  font: 20px normal Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 400px;
+  margin: 0 auto;
+}
+
+fieldset {
+  background: linear-gradient(0deg, #ddfff7, #7affdf);
+  padding: 15px;
+  border: 1px solid #d1d1d1;
+}
+
+h1 {
+  font-size: 2rem;
+  padding: 15px 0 0 0;
+  margin: 0 0 15px 0;
+  text-align: center;
+}
+
+dl {
+  padding: 0 0 10px 0;
+}
+
+dt {
+  margin: 0 0 10px 0;
+}
+
+dd {
+  display: inline-block;
+}
+
+input {
+  margin: 0 0 15px 0;
+}
+
+input[type="text"] {
+  width: 370px;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  width: 150px;
+  height: 40px;
+  background: #ff8e8e;
+  border: 1px solid #d1d1d1;
+  margin: 0 auto;
+  font-size: .75rem;
+  font-weight: 600;
+}
+
+dd select,
+dd input[type="number"] {
+  width: 180px;
+  height: 30px;
+  border: 1px solid #d1d1d1;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+dd select {
+  margin: 0 10px 0 0;
+}
+
+dd input[name="code"] {
+  width: 100px;
+}
+
